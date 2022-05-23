@@ -8,7 +8,7 @@
     "npm": "6.9.0"
   },
   "scripts": {
-    "api" : "node api_server/server.js",
+    "api": "node api_server/server.js",
     "start": "node server/index.js",
     "backend": "nodemon server/index.js",
     "frontend": "npm run start --prefix client",
@@ -28,6 +28,7 @@
     "moment": "^2.24.0",
     "mongoose": "^5.4.20",
     "react-redux": "^5.0.7",
+    "react-scripts": "^5.0.1",
     "request": "^2.88.2",
     "saslprep": "^1.0.3",
     "supports-color": "^7.1.0",
